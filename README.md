@@ -1,7 +1,7 @@
 # INTERPOLATING-NEURAL-NETWORK
 We present a full architecture to train and evaluate a Feed Forward Neural Network designed to interpolate tabulated Equations of State for Neutron Stars. 
 
-We've focused on the 2D MODEL: HS(DD2) neutron matter (with electrons) from Compose database https://compose.obspm.fr/eos/2
+We've focused on the 2D MODEL: HS(DD2) neutron matter (with electrons) from Compose database https://compose.obspm.fr/eos/2. 
 However it could be extended to EoS with wider number of inputs or outputs and/or greater range.
 
 Inputs:
