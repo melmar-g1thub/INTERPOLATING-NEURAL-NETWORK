@@ -16,9 +16,16 @@ Outputs:
 
 However it could be extended to EoS with wider number of inputs or outputs and/or greater range.
 
-The code contains several ordered moduls:
+The code contains several ordered modules:
+
 A. preparation_of_data: Upload tabulated data, create indexed map for inputs and ouputs and preprocess data for NN training (splitting into training/validation/data sets, normalization and transforming into torch.nn tensors).
+
 B. neural_network: Definition of the feed forward network with flexible structure allowing dynamic change of hyper-parameters.
-C. random_search: Automatized RandomSearchCV with flexible cross validation to find optimal hyper-parameters for our model. D. final_models: Retraining of top performing model from RandomSearchCV to further prove generalization and study metrics for generated predictions.
+
+C. random_search: Automatized RandomSearchCV with flexible cross validation to find optimal hyper-parameters for our model. 
+
+D. final_models: Retraining of top performing model from RandomSearchCV to further prove generalization and study metrics for generated predictions.
+
 E. global_interpolation: Interpolation scheme designed to study local interpolation on triplets of data based on the globally trained model and comparision with B-Splines performance.
+
 F. local_interpolation: Interpolation scheme designed to study local interpolation on triplets of data with the previous local training on a FFNN on data triplets and comparision with B-Splines performance.
