@@ -14,7 +14,7 @@ Outputs:
 2. Q2 = S/n_B [dimensionless]: [7.51E−4, 1.41E+12]
 
 
-The code contains several ordered modules:
+The code contains the following modules:
 
 A. preparation_of_data: Upload tabulated data, create indexed map for inputs and ouputs and preprocess data for NN training (splitting into training/validation/data sets, normalization and transforming into torch.nn tensors).
 
