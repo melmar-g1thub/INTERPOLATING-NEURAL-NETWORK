@@ -6,7 +6,7 @@ However it could be extended to EoS with wider number of inputs or outputs and/o
 
 Inputs:
 1. n_B [fm-3]: (0.1E-11 0.1E+02)
-2. T [MeV]: (0.10000000E+00, 0.15848932E+03)
+2. T [MeV]: (0.100E+00, 0.158E+03)
 3. Y_q → Constant (0)
 
 Outputs:
